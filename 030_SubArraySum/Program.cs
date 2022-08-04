@@ -73,8 +73,10 @@
  *              2       3 ------>    3 times     |   (i + 1) * (n - i) = (2 + 1) * (3 - 2) = 3
  *          -------------------------------------------------------------------------------------
  *          
- *              So sum of sub arrays also written as " sum of elements multiplied by occurances
+ *              So sum of sub arrays also written as "sum of elements multiplied by occurances"
  *          
+ *              Using Contribution technique..
+ *              
  *              Sum of sub arrays  =  (1 * 3) + (2 * 4) + (3 * 3) = 3 + 8 + 9 = 20 
  *          
  *          
