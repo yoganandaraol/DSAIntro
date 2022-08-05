@@ -73,11 +73,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "031_SubArraysWithLeastAvera
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "032_MaximumSumSubarray", "032_MaximumSumSubarray\032_MaximumSumSubarray.csproj", "{B89525EB-DA2B-4050-AF72-B59E90237D51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "033_Alternating_Subarrays", "033_Alternating_Subarrays\033_Alternating_Subarrays.csproj", "{4F7866DE-A2F5-4A1E-9019-8B703548C214}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "033_Alternating_Subarrays", "033_Alternating_Subarrays\033_Alternating_Subarrays.csproj", "{4F7866DE-A2F5-4A1E-9019-8B703548C214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "034_CountGoodSubArrays", "034_CountGoodSubArrays\034_CountGoodSubArrays.csproj", "{03B8B2A5-C39E-4690-9780-A221F911A9F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "034_CountGoodSubArrays", "034_CountGoodSubArrays\034_CountGoodSubArrays.csproj", "{03B8B2A5-C39E-4690-9780-A221F911A9F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "035_SumSubArraysLessLimit", "035_SumSubArraysLessLimit\035_SumSubArraysLessLimit.csproj", "{63AC0F9D-534A-40A3-AC43-51D11CE9E44B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "035_SumSubArraysLessLimit", "035_SumSubArraysLessLimit\035_SumSubArraysLessLimit.csproj", "{63AC0F9D-534A-40A3-AC43-51D11CE9E44B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "036_DiagonalElementsRectMatrix", "036_DiagonalElementsRectMatrix\036_DiagonalElementsRectMatrix.csproj", "{D4B2B340-CE3E-4197-AF34-629A61D99FFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -233,6 +235,10 @@ Global
 		{63AC0F9D-534A-40A3-AC43-51D11CE9E44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63AC0F9D-534A-40A3-AC43-51D11CE9E44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63AC0F9D-534A-40A3-AC43-51D11CE9E44B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B2B340-CE3E-4197-AF34-629A61D99FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B2B340-CE3E-4197-AF34-629A61D99FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B2B340-CE3E-4197-AF34-629A61D99FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B2B340-CE3E-4197-AF34-629A61D99FFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
