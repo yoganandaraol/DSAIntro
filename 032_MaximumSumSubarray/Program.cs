@@ -40,9 +40,7 @@ namespace _032_MaximumSumSubarray
                         if (subTotal <= B & subTotal > maxSum)
                             maxSum = subTotal;
                     }
-                    
                 }
-
                 return maxSum;
             }
         }

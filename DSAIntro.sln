@@ -69,9 +69,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "029_SmartBulbs", "029_Smart
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "030_SubArraySum", "030_SubArraySum\030_SubArraySum.csproj", "{BEAD3D52-7780-4B2D-B0AB-342145903536}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "031_SubArraysWithLeastAverage", "031_SubArraysWithLeastAverage\031_SubArraysWithLeastAverage.csproj", "{E0D8E7DC-F1D8-4C62-A391-2F6658EC8C2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "031_SubArraysWithLeastAverage", "031_SubArraysWithLeastAverage\031_SubArraysWithLeastAverage.csproj", "{E0D8E7DC-F1D8-4C62-A391-2F6658EC8C2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "032_MaximumSumSubarray", "032_MaximumSumSubarray\032_MaximumSumSubarray.csproj", "{B89525EB-DA2B-4050-AF72-B59E90237D51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "032_MaximumSumSubarray", "032_MaximumSumSubarray\032_MaximumSumSubarray.csproj", "{B89525EB-DA2B-4050-AF72-B59E90237D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "033_Alternating_Subarrays", "033_Alternating_Subarrays\033_Alternating_Subarrays.csproj", "{4F7866DE-A2F5-4A1E-9019-8B703548C214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "034_CountGoodSubArrays", "034_CountGoodSubArrays\034_CountGoodSubArrays.csproj", "{03B8B2A5-C39E-4690-9780-A221F911A9F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "035_SumSubArraysLessLimit", "035_SumSubArraysLessLimit\035_SumSubArraysLessLimit.csproj", "{63AC0F9D-534A-40A3-AC43-51D11CE9E44B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -215,6 +221,18 @@ Global
 		{B89525EB-DA2B-4050-AF72-B59E90237D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B89525EB-DA2B-4050-AF72-B59E90237D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B89525EB-DA2B-4050-AF72-B59E90237D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7866DE-A2F5-4A1E-9019-8B703548C214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7866DE-A2F5-4A1E-9019-8B703548C214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7866DE-A2F5-4A1E-9019-8B703548C214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7866DE-A2F5-4A1E-9019-8B703548C214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B8B2A5-C39E-4690-9780-A221F911A9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B8B2A5-C39E-4690-9780-A221F911A9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B8B2A5-C39E-4690-9780-A221F911A9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B8B2A5-C39E-4690-9780-A221F911A9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63AC0F9D-534A-40A3-AC43-51D11CE9E44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63AC0F9D-534A-40A3-AC43-51D11CE9E44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63AC0F9D-534A-40A3-AC43-51D11CE9E44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63AC0F9D-534A-40A3-AC43-51D11CE9E44B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
