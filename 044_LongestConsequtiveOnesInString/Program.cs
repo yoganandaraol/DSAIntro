@@ -43,37 +43,48 @@ namespace _044_LongestConsecutiveOnesInString
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(LongestConsecutiveOnes("11110001"));
+            Console.WriteLine(LongestConsecutiveOnes("11110001") == 5 ? "Passed" : "Failed");
+            Console.WriteLine(LongestConsecutiveOnes("1111000") == 4 ? "Passed" : "Failed");
+            Console.WriteLine(LongestConsecutiveOnes("111011101") == 7 ? "Passed" : "Failed");
+            Console.WriteLine(LongestConsecutiveOnes("11101110") == 6 ? "Passed" : "Failed");
+            Console.WriteLine(LongestConsecutiveOnes("11010110000000000") == 4 ? "Passed" : "Failed");
+            Console.WriteLine(LongestConsecutiveOnes("1111111111") == 10 ? "Passed" : "Failed");
+            Console.WriteLine(LongestConsecutiveOnes("00000000") == 0 ? "Passed" : "Failed");
         }
 
         static int LongestConsecutiveOnes(string A)
         {
             int maxLen = 0;
-
-            var charsArr = A.ToCharArray();
-            int[] zeroDistances = new int[charsArr.Length];
-
-            char prevChar = charsArr[0];
-
             int onesCount = 0;
-            int zerosCount = 0;
-            for (int i = 0; i < charsArr.Length; i++)
+            for (int i = 0; i < A.Length; i++)
             {
-                if (charsArr[i] == '1')
+                int leftCount = 0;
+                int rightCount = 0;
+
+                if (A[i] == '0')
                 {
-                    onesCount++;
-                    if (prevChar == charsArr[i]) maxLen++;
+                    for (int j = i-1; j >= 0; j--)
+                    {
+                        if (A[j] == '0')
+                            break;
+                        leftCount++;
+                    }
+
+                    for (int j = i + 1; j < A.Length; j++)
+                    {
+                        if (A[j] == '0')
+                            break;
+                        rightCount++;
+                    }
+                    maxLen = Math.Max(maxLen, leftCount + rightCount);
                 }
-                else 
-                {
-                    zerosCount++;
-                }
-                prevChar = charsArr[i];
+                else onesCount++;
             }
 
-            if (onesCount == maxLen) return onesCount;
-
-            return maxLen;
+            if (onesCount == 0) return 0;
+            if (maxLen == 0) return onesCount;
+            
+            return maxLen == onesCount ? maxLen : maxLen + 1;
         }
     }
 }

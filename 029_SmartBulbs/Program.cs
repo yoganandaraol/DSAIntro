@@ -13,6 +13,7 @@ namespace _029_SmartBulbs
             Console.WriteLine(bulbs(input));
         }
 
+        // TC = O(N^2)
         static int bulbs(List<int> A)
         {
             int count = 0;
@@ -34,26 +35,32 @@ namespace _029_SmartBulbs
             }
             return count;
         }
+
+        // TC = O(N)
         static int bulbsV1(List<int> A)
         {
             int count = 0;
             for (int i = 0; i < A.Count; i++)
             {
-                if (A[i] == 1)
+                if ((A[i] == 1 && count % 2 == 0) || (A[i] == 0 && count % 2 != 0))
                 {
                     continue;
                 }
-                else
+                else if ((A[i] == 1 && count % 2 != 0) || (A[i] == 0 && count % 2 == 0))
                 {
-                    for (int j = i + 1; j < A.Count; j++)
-                    {
-                        A[j] = A[j] == 0 ? 1 : 0;
-                    }
                     count++;
                 }
-
             }
             return count;
+        }
+
+        static int bulbsV2(List<int> A)
+        {
+            int n = A.Count, ans = 0;
+            if (n > 0 && A[0] == 0) ans += 1; 
+            for (int i = 1; i < n; i++) 
+                ans += A[i] ^ A[i - 1]; 
+            return ans;
         }
     }
 }
