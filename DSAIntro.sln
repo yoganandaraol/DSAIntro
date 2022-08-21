@@ -151,7 +151,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "070_LeastCommonMultiple", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "071_RectangleOverlap", "071_RectangleOverlap\071_RectangleOverlap.csproj", "{65A6F1C4-16D3-4D6A-805B-02E192495B54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "072_MajorityElementInArray", "072_MajorityElementInArray\072_MajorityElementInArray.csproj", "{9826BB8C-9AA7-4F20-A31D-6784A2460266}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "072_MajorityElementInArray", "072_MajorityElementInArray\072_MajorityElementInArray.csproj", "{9826BB8C-9AA7-4F20-A31D-6784A2460266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "073_RepeatNumber", "073_RepeatNumber\073_RepeatNumber.csproj", "{0E093DDD-731F-479C-858F-1CD1253C3081}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -455,6 +457,10 @@ Global
 		{9826BB8C-9AA7-4F20-A31D-6784A2460266}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9826BB8C-9AA7-4F20-A31D-6784A2460266}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9826BB8C-9AA7-4F20-A31D-6784A2460266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E093DDD-731F-479C-858F-1CD1253C3081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E093DDD-731F-479C-858F-1CD1253C3081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E093DDD-731F-479C-858F-1CD1253C3081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E093DDD-731F-479C-858F-1CD1253C3081}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
