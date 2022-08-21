@@ -137,19 +137,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "050_LargestSubarrayWithCont
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "064_StarPattern", "064_StarPattern\064_StarPattern.csproj", "{44582DCE-35D5-4B0A-9223-946FDE67EC00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "065_PowerWithModulos", "065_PowerWithModulos\065_PowerWithModulos.csproj", "{CE3A4B6A-CB12-449B-9399-C2DED106E03A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "065_PowerWithModulos", "065_PowerWithModulos\065_PowerWithModulos.csproj", "{CE3A4B6A-CB12-449B-9399-C2DED106E03A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "066_DivisibilityBy8", "066_DivisibilityBy8\066_DivisibilityBy8.csproj", "{71E34787-5CCB-4809-829F-3EE336D31804}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "066_DivisibilityBy8", "066_DivisibilityBy8\066_DivisibilityBy8.csproj", "{71E34787-5CCB-4809-829F-3EE336D31804}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "067_ModString", "067_ModString\067_ModString.csproj", "{02F97919-013C-413A-8F8B-47F57173E784}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "067_ModString", "067_ModString\067_ModString.csproj", "{02F97919-013C-413A-8F8B-47F57173E784}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "068_PossibleLargestNumber", "068_PossibleLargestNumber\068_PossibleLargestNumber.csproj", "{FE085054-410D-43D3-A067-F4EE2BF14B6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "068_PossibleLargestNumber", "068_PossibleLargestNumber\068_PossibleLargestNumber.csproj", "{FE085054-410D-43D3-A067-F4EE2BF14B6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "069_LeapYear", "069_LeapYear\069_LeapYear.csproj", "{DAB43948-AB6C-4C6F-ACE5-A3F73FD11977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "069_LeapYear", "069_LeapYear\069_LeapYear.csproj", "{DAB43948-AB6C-4C6F-ACE5-A3F73FD11977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "070_LeastCommonMultiple", "070_LeastCommonMultiple\070_LeastCommonMultiple.csproj", "{F279F909-40D8-4243-9B85-1A9E9D729A9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "070_LeastCommonMultiple", "070_LeastCommonMultiple\070_LeastCommonMultiple.csproj", "{F279F909-40D8-4243-9B85-1A9E9D729A9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "071_RectangleOverlap", "071_RectangleOverlap\071_RectangleOverlap.csproj", "{65A6F1C4-16D3-4D6A-805B-02E192495B54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "071_RectangleOverlap", "071_RectangleOverlap\071_RectangleOverlap.csproj", "{65A6F1C4-16D3-4D6A-805B-02E192495B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "072_MajorityElementInArray", "072_MajorityElementInArray\072_MajorityElementInArray.csproj", "{9826BB8C-9AA7-4F20-A31D-6784A2460266}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -449,6 +451,10 @@ Global
 		{65A6F1C4-16D3-4D6A-805B-02E192495B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65A6F1C4-16D3-4D6A-805B-02E192495B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65A6F1C4-16D3-4D6A-805B-02E192495B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9826BB8C-9AA7-4F20-A31D-6784A2460266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9826BB8C-9AA7-4F20-A31D-6784A2460266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9826BB8C-9AA7-4F20-A31D-6784A2460266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9826BB8C-9AA7-4F20-A31D-6784A2460266}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
