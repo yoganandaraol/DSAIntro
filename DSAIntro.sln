@@ -159,6 +159,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "074_ColorOfLastBall", "074_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "075_NobleElement", "075_NobleElement\075_NobleElement.csproj", "{B9A5E61E-655F-4BDF-85FC-F5E2C43DB9B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "076_ElementsRemoval", "076_ElementsRemoval\076_ElementsRemoval.csproj", "{952F58F0-A250-412D-8A3B-0C78CB853DFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -473,6 +475,10 @@ Global
 		{B9A5E61E-655F-4BDF-85FC-F5E2C43DB9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9A5E61E-655F-4BDF-85FC-F5E2C43DB9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9A5E61E-655F-4BDF-85FC-F5E2C43DB9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952F58F0-A250-412D-8A3B-0C78CB853DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952F58F0-A250-412D-8A3B-0C78CB853DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952F58F0-A250-412D-8A3B-0C78CB853DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952F58F0-A250-412D-8A3B-0C78CB853DFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
