@@ -155,7 +155,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "072_MajorityElementInArray"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "073_RepeatNumber", "073_RepeatNumber\073_RepeatNumber.csproj", "{0E093DDD-731F-479C-858F-1CD1253C3081}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "074_ColorOfLastBall", "074_ColorOfLastBall\074_ColorOfLastBall.csproj", "{6DC7E629-849C-42D8-AA7C-938997EAD01E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "074_ColorOfLastBall", "074_ColorOfLastBall\074_ColorOfLastBall.csproj", "{6DC7E629-849C-42D8-AA7C-938997EAD01E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "075_NobleElement", "075_NobleElement\075_NobleElement.csproj", "{B9A5E61E-655F-4BDF-85FC-F5E2C43DB9B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -467,6 +469,10 @@ Global
 		{6DC7E629-849C-42D8-AA7C-938997EAD01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DC7E629-849C-42D8-AA7C-938997EAD01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DC7E629-849C-42D8-AA7C-938997EAD01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A5E61E-655F-4BDF-85FC-F5E2C43DB9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A5E61E-655F-4BDF-85FC-F5E2C43DB9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A5E61E-655F-4BDF-85FC-F5E2C43DB9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A5E61E-655F-4BDF-85FC-F5E2C43DB9B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
