@@ -1,0 +1,117 @@
+ASCII: American Standard Code for 
+
+Ascii values assigned between 0 - 255 (8 bits --> 1 byte)
+
+a --> 97    A --> 65    '0' --> 48
+b --> 98    B --> 66    '1' --> 49
+..          ..          ..
+..          ..          ..
+z --> 122   Z --> 90    '9' --> 57
+
+-------------------------------------------
+
+
+s = "abc" -> 3 bytes
+s = "97"  -> 2 bytes
+
+string s = "Yoga";      // 4 Characters --> 4 bytes
+string s = "-1";        // 2 Characters --> 2 bytes
+
+-------------------------------------------
+    1 char will take 1 byte
+-------------------------------------------
+
+Immutable Strings:
+
+in C++ --> updating a string is same as updating an array
+
+arrays are mutable and can be updated in same location.
+
+Like Java, C#, Python, js... etc.   strings are Immutable
+                                    ---------------------
+
+String Pool --> is a collection of all strins in memory.
+                it will have unique set of strings
+eg:
+    s1 = "abc";3
+    s2 = "abct";  --> s2 will check for value in string pool for existance
+                        and assign that address to s2 
+
+Garbage collector will free up the space if the values are having no references in string pool.
+
+
+Disadvantage:
+------------
+
+string  s = 'a'         ---> 1 iteration
+        s = s + 'b'     ---> 2 iterations
+        s = s + 'c'     ---> 3 iterations
+        s = s + 'd'     ---> 4 iterations
+                            --------------
+                            10 iterations
+
+Append N chars in an empty string 
+#iterations  --> 1 + 2 + 3 + ........ + N = N * (N + 1) / 2
+
+So TC  = O(N^2)
+
+
+
+Q - Given a string s, toggle the case of every character.
+
+    "aBcdE"  -->  "AbCDe"
+
+----------------------------------------
+a --> 97    A --> 65        97-65 = 32
+b --> 98    B --> 66        98-66 = 32
+..          ..         
+..          ..          
+z --> 122   Z --> 90        122-90 = 32
+
+
+Lower case -- Upper Case Char + 32
+Upper Case -- Lower Case Char - 32
+----------------------------------------
+
+for i --> 0 - (n-1)
+    if (A[i] is lower case)
+        A[i] -= 32;
+    else if (A[i] is upper case)
+        A[i] += 32;
+
+
+
+In short s[i] ^= 32
+
+TC = O(N)
+SC = O(1)
+
+
+
+Q - Given a string with lower case characters. Sort in dictionary order.
+
+    s = "yoga" --> "agoy"
+
+    sorting by algo  -> TC = O(N log N)
+
+    * Calculate the freq of all 26 alphabets
+        for - --> 0 - N-1           TC = O(N)
+            F[s[i]-'a'] += 1        SC = O(26) = O(1)
+
+        
+    for i --> 0 to 25               |
+        char c = char(i+'a')        |   TC = O(N)
+        for j --> 1 to F[i]         |   because, sum of all frequencies of chars is length of string
+            print(c)                |   
+
+This is Count Sort technique
+Count sort can be applied to smaller number of freq elements.
+
+
+
+---------------------------------------
+        What is 
+            Deep Cloning
+            Shallow Cloning
+---------------------------------------
+
