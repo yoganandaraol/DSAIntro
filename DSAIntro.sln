@@ -169,11 +169,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "079_ArrayElementsWithArthme
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "080_LargestNumber", "080_LargestNumber\080_LargestNumber.csproj", "{9D44E83F-F04E-496E-BD6F-ABAA6947B82A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "081_CharArrayCaseChange", "081_CharArrayCaseChange\081_CharArrayCaseChange.csproj", "{F3BF13E6-6154-4644-B403-B7664CF938FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "081_CharArrayCaseChange", "081_CharArrayCaseChange\081_CharArrayCaseChange.csproj", "{F3BF13E6-6154-4644-B403-B7664CF938FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "082_ChangeCharacter", "082_ChangeCharacter\082_ChangeCharacter.csproj", "{B5135C99-9C44-4E36-AB4D-D8F5B38F1942}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "082_ChangeCharacter", "082_ChangeCharacter\082_ChangeCharacter.csproj", "{B5135C99-9C44-4E36-AB4D-D8F5B38F1942}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "085_StringManipulations", "085_StringManipulations\085_StringManipulations.csproj", "{FD9DC6F8-7A9D-41A9-A572-836B6BB08FA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "085_StringManipulations", "085_StringManipulations\085_StringManipulations.csproj", "{FD9DC6F8-7A9D-41A9-A572-836B6BB08FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "083_CountOfOccurances", "083_CountOfOccurances\083_CountOfOccurances.csproj", "{26243823-9ECE-484D-83CD-22CDEF394B85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -521,6 +523,10 @@ Global
 		{FD9DC6F8-7A9D-41A9-A572-836B6BB08FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD9DC6F8-7A9D-41A9-A572-836B6BB08FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD9DC6F8-7A9D-41A9-A572-836B6BB08FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26243823-9ECE-484D-83CD-22CDEF394B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26243823-9ECE-484D-83CD-22CDEF394B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26243823-9ECE-484D-83CD-22CDEF394B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26243823-9ECE-484D-83CD-22CDEF394B85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
