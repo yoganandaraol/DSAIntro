@@ -110,6 +110,10 @@ namespace _086_ArrayContainsAlphaNumerics
             inputA = new List<char> { 'S', 'c', 'a', 'l', 'e', 'r', '#', '2', '0', '2', '0' };
             Console.WriteLine(IsAlphaNumeric(inputA) == 0 ? "Passed" : "Failed");
 
+
+            var strInput = "I love debugging!!";
+            Console.WriteLine(FormatString(strInput) == "I love debugging" ? "Passed" : "Failed");
+
         }
 
         static int IsAlpha(List<char> A)
@@ -131,6 +135,23 @@ namespace _086_ArrayContainsAlphaNumerics
             }
             return 1;
         }
+
+        public static string FormatString(string sentence)
+        {
+            var result = string.Empty;
+            var j = 0;
+            //sentence = sentence.ToUpper(); 
+            for (var i = 0; i < sentence.Length; i++)
+            {
+                if ((sentence[i] >= 65 && sentence[i] <= 90) || (sentence[i] >= 'a' && sentence[i] <= 'z') || sentence[i] == 32 || sentence[i] == 45)
+                {
+                    result = string.Format("{0}{1}", result, sentence[i]);
+                    j++;
+                }
+            }
+            return result;
+        }
+
 
 
     }
