@@ -8,31 +8,31 @@ namespace _091_SubArraySumZero
         static void Main(string[] args)
         {
             List<int> inputA = new List<int> { 1, 2, 3, 4, 5, -15 };
-            Console.WriteLine(ContainsSubarraySumZeroV1(inputA) == 1 ? "Passed" : "Failed");
+            Console.WriteLine(ContainsSubarraySumZeroV2(inputA) == 1 ? "Passed" : "Failed");
 
             inputA = new List<int> { 1, 2, 3, 4, 5, -14 };
-            Console.WriteLine(ContainsSubarraySumZeroV1(inputA) == 1 ? "Passed" : "Failed");
+            Console.WriteLine(ContainsSubarraySumZeroV2(inputA) == 1 ? "Passed" : "Failed");
 
             inputA = new List<int> { 1, 2, 3, 4, 5, -13 };
-            Console.WriteLine(ContainsSubarraySumZeroV1(inputA) == 0 ? "Passed" : "Failed");
+            Console.WriteLine(ContainsSubarraySumZeroV2(inputA) == 0 ? "Passed" : "Failed");
 
             inputA = new List<int> { 1, -1 };
-            Console.WriteLine(ContainsSubarraySumZeroV1(inputA) == 1 ? "Passed" : "Failed");
+            Console.WriteLine(ContainsSubarraySumZeroV2(inputA) == 1 ? "Passed" : "Failed");
 
             inputA = new List<int> { 0, 1 };
-            Console.WriteLine(ContainsSubarraySumZeroV1(inputA) == 1 ? "Passed" : "Failed");
+            Console.WriteLine(ContainsSubarraySumZeroV2(inputA) == 1 ? "Passed" : "Failed");
 
             inputA = new List<int> { 0, -1 };
-            Console.WriteLine(ContainsSubarraySumZeroV1(inputA) == 1 ? "Passed" : "Failed");
+            Console.WriteLine(ContainsSubarraySumZeroV2(inputA) == 1 ? "Passed" : "Failed");
 
             inputA = new List<int> { 1, 0 };
-            Console.WriteLine(ContainsSubarraySumZeroV1(inputA) == 1 ? "Passed" : "Failed");
+            Console.WriteLine(ContainsSubarraySumZeroV2(inputA) == 1 ? "Passed" : "Failed");
 
             inputA = new List<int> { -1, 0 };
-            Console.WriteLine(ContainsSubarraySumZeroV1(inputA) == 1 ? "Passed" : "Failed");
+            Console.WriteLine(ContainsSubarraySumZeroV2(inputA) == 1 ? "Passed" : "Failed");
 
             inputA = new List<int> { 1, 2, 3, 4, -7, -14 };
-            Console.WriteLine(ContainsSubarraySumZeroV1(inputA) == 1 ? "Passed" : "Failed");
+            Console.WriteLine(ContainsSubarraySumZeroV2(inputA) == 1 ? "Passed" : "Failed");
         }
 
         static int ContainsSubarraySumZero(List<int> A)
