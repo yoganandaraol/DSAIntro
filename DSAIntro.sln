@@ -181,9 +181,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "084_MinNumberOfDistinctChar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "086_ArrayContainsAlphaNumerics", "086_ArrayContainsAlphaNumerics\086_ArrayContainsAlphaNumerics.csproj", "{14880326-29A3-4FCC-B388-B16B1D472959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "087_ReverseSentence", "087_ReverseSentence\087_ReverseSentence.csproj", "{DFAA4910-92F5-4F8C-9ECC-83472B3CC042}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "087_ReverseSentence", "087_ReverseSentence\087_ReverseSentence.csproj", "{DFAA4910-92F5-4F8C-9ECC-83472B3CC042}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "088_FindPalindromeString", "088_FindPalindromeString\088_FindPalindromeString.csproj", "{AE23A316-A5AE-4BBE-AC2A-8E1BAE541065}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "088_FindPalindromeString", "088_FindPalindromeString\088_FindPalindromeString.csproj", "{AE23A316-A5AE-4BBE-AC2A-8E1BAE541065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "089_CommonElements", "089_CommonElements\089_CommonElements.csproj", "{33997D4F-B426-4842-BCFD-D779497B65D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -551,6 +553,10 @@ Global
 		{AE23A316-A5AE-4BBE-AC2A-8E1BAE541065}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE23A316-A5AE-4BBE-AC2A-8E1BAE541065}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE23A316-A5AE-4BBE-AC2A-8E1BAE541065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33997D4F-B426-4842-BCFD-D779497B65D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33997D4F-B426-4842-BCFD-D779497B65D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33997D4F-B426-4842-BCFD-D779497B65D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33997D4F-B426-4842-BCFD-D779497B65D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

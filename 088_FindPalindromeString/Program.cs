@@ -4,6 +4,7 @@ namespace _088_FindPalindromeString
 {
     class Program
     {
+        //TODO
         static void Main(string[] args)
         {
             Console.WriteLine(LongestPalindromicSubstring("aarevveraa") == 10 ? "Passed" : "Failed");
