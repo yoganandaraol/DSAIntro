@@ -199,6 +199,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "093_IsColorfulNumber", "093
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "094_LargestSubarraySum", "093_LargestSubarraySum\094_LargestSubarraySum.csproj", "{C30C7FFD-EC30-49AB-8FE8-F9AB2B8DBCA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "095_PossibleDiffElement", "095_PossibleDiffElement\095_PossibleDiffElement.csproj", "{AF3359A4-79B2-454A-AF49-08F39552C4BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -593,6 +595,10 @@ Global
 		{C30C7FFD-EC30-49AB-8FE8-F9AB2B8DBCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C30C7FFD-EC30-49AB-8FE8-F9AB2B8DBCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C30C7FFD-EC30-49AB-8FE8-F9AB2B8DBCA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3359A4-79B2-454A-AF49-08F39552C4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3359A4-79B2-454A-AF49-08F39552C4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3359A4-79B2-454A-AF49-08F39552C4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3359A4-79B2-454A-AF49-08F39552C4BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
