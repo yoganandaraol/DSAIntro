@@ -197,6 +197,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "092_CheckPalindromePossibil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "093_IsColorfulNumber", "093_IsColorfulNumber\093_IsColorfulNumber.csproj", "{0F8921B3-AE34-4344-86A5-CE5F35850A63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "094_LargestSubarraySum", "093_LargestSubarraySum\094_LargestSubarraySum.csproj", "{C30C7FFD-EC30-49AB-8FE8-F9AB2B8DBCA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -587,6 +589,10 @@ Global
 		{0F8921B3-AE34-4344-86A5-CE5F35850A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F8921B3-AE34-4344-86A5-CE5F35850A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F8921B3-AE34-4344-86A5-CE5F35850A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30C7FFD-EC30-49AB-8FE8-F9AB2B8DBCA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30C7FFD-EC30-49AB-8FE8-F9AB2B8DBCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30C7FFD-EC30-49AB-8FE8-F9AB2B8DBCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30C7FFD-EC30-49AB-8FE8-F9AB2B8DBCA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
