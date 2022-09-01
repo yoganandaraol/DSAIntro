@@ -191,6 +191,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "090_RepeatingElements", "09
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "091_SubArraySumZero", "091_SubArraySumZero\091_SubArraySumZero.csproj", "{38AA284E-B4FF-4CD8-8A58-A4E081BCC437}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "091_SumOfRepeatedDistinctElements", "091_SumOfRepeatedDistinctElements\091_SumOfRepeatedDistinctElements.csproj", "{564B8341-6D6F-4ECA-BF27-6CB3710E57AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -569,6 +571,10 @@ Global
 		{38AA284E-B4FF-4CD8-8A58-A4E081BCC437}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38AA284E-B4FF-4CD8-8A58-A4E081BCC437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38AA284E-B4FF-4CD8-8A58-A4E081BCC437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{564B8341-6D6F-4ECA-BF27-6CB3710E57AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{564B8341-6D6F-4ECA-BF27-6CB3710E57AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{564B8341-6D6F-4ECA-BF27-6CB3710E57AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{564B8341-6D6F-4ECA-BF27-6CB3710E57AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
