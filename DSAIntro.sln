@@ -205,6 +205,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "096_DistinctNumbersInWindow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "097_WordsInLexicographicalOrder", "097_WordsInLexicographicalOrder\097_WordsInLexicographicalOrder.csproj", "{9F4BB2DB-2336-437E-B658-4B2E654563E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100_PrintNaturalNumberRecursion", "100_PrintNaturalNumberRecursion\100_PrintNaturalNumberRecursion.csproj", "{778074A6-F7C3-451B-95F3-DE329EA1FB04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -611,6 +613,10 @@ Global
 		{9F4BB2DB-2336-437E-B658-4B2E654563E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F4BB2DB-2336-437E-B658-4B2E654563E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F4BB2DB-2336-437E-B658-4B2E654563E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{778074A6-F7C3-451B-95F3-DE329EA1FB04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778074A6-F7C3-451B-95F3-DE329EA1FB04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778074A6-F7C3-451B-95F3-DE329EA1FB04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778074A6-F7C3-451B-95F3-DE329EA1FB04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
