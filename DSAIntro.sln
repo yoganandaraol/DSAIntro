@@ -193,13 +193,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "091_SubArraySumZero", "091_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "091_SumOfRepeatedDistinctElements", "091_SumOfRepeatedDistinctElements\091_SumOfRepeatedDistinctElements.csproj", "{564B8341-6D6F-4ECA-BF27-6CB3710E57AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "092_CheckPalindromePossibility", "092_CheckPalindromePossibility\092_CheckPalindromePossibility.csproj", "{1569E1DB-F5AD-403D-82D5-C6231C083D52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "092_CheckPalindromePossibility", "092_CheckPalindromePossibility\092_CheckPalindromePossibility.csproj", "{1569E1DB-F5AD-403D-82D5-C6231C083D52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "093_IsColorfulNumber", "093_IsColorfulNumber\093_IsColorfulNumber.csproj", "{0F8921B3-AE34-4344-86A5-CE5F35850A63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "093_IsColorfulNumber", "093_IsColorfulNumber\093_IsColorfulNumber.csproj", "{0F8921B3-AE34-4344-86A5-CE5F35850A63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "094_LargestSubarraySum", "093_LargestSubarraySum\094_LargestSubarraySum.csproj", "{C30C7FFD-EC30-49AB-8FE8-F9AB2B8DBCA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "094_LargestSubarraySum", "093_LargestSubarraySum\094_LargestSubarraySum.csproj", "{C30C7FFD-EC30-49AB-8FE8-F9AB2B8DBCA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "095_PossibleDiffElement", "095_PossibleDiffElement\095_PossibleDiffElement.csproj", "{AF3359A4-79B2-454A-AF49-08F39552C4BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "095_PossibleDiffElement", "095_PossibleDiffElement\095_PossibleDiffElement.csproj", "{AF3359A4-79B2-454A-AF49-08F39552C4BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "096_DistinctNumbersInWindow", "096_DistinctNumbersInWindow\096_DistinctNumbersInWindow.csproj", "{D7F96DEC-9E89-4F79-A974-CEB2E52D4CC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -599,6 +601,10 @@ Global
 		{AF3359A4-79B2-454A-AF49-08F39552C4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF3359A4-79B2-454A-AF49-08F39552C4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF3359A4-79B2-454A-AF49-08F39552C4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F96DEC-9E89-4F79-A974-CEB2E52D4CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F96DEC-9E89-4F79-A974-CEB2E52D4CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F96DEC-9E89-4F79-A974-CEB2E52D4CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F96DEC-9E89-4F79-A974-CEB2E52D4CC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
