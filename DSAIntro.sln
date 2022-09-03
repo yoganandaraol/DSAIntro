@@ -201,11 +201,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "094_LargestSubarraySum", "0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "095_PossibleDiffElement", "095_PossibleDiffElement\095_PossibleDiffElement.csproj", "{AF3359A4-79B2-454A-AF49-08F39552C4BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "096_DistinctNumbersInWindow", "096_DistinctNumbersInWindow\096_DistinctNumbersInWindow.csproj", "{D7F96DEC-9E89-4F79-A974-CEB2E52D4CC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "096_DistinctNumbersInWindow", "096_DistinctNumbersInWindow\096_DistinctNumbersInWindow.csproj", "{D7F96DEC-9E89-4F79-A974-CEB2E52D4CC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "097_WordsInLexicographicalOrder", "097_WordsInLexicographicalOrder\097_WordsInLexicographicalOrder.csproj", "{9F4BB2DB-2336-437E-B658-4B2E654563E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "097_WordsInLexicographicalOrder", "097_WordsInLexicographicalOrder\097_WordsInLexicographicalOrder.csproj", "{9F4BB2DB-2336-437E-B658-4B2E654563E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100_PrintNaturalNumberRecursion", "100_PrintNaturalNumberRecursion\100_PrintNaturalNumberRecursion.csproj", "{778074A6-F7C3-451B-95F3-DE329EA1FB04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "100_PrintNaturalNumberRecursion", "100_PrintNaturalNumberRecursion\100_PrintNaturalNumberRecursion.csproj", "{778074A6-F7C3-451B-95F3-DE329EA1FB04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "098_PairsWithGIvenXOR", "098_PairsWithGIvenXOR\098_PairsWithGIvenXOR.csproj", "{8BCDA366-1587-424B-8FED-904F485C0A33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -617,6 +619,10 @@ Global
 		{778074A6-F7C3-451B-95F3-DE329EA1FB04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{778074A6-F7C3-451B-95F3-DE329EA1FB04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{778074A6-F7C3-451B-95F3-DE329EA1FB04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BCDA366-1587-424B-8FED-904F485C0A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BCDA366-1587-424B-8FED-904F485C0A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BCDA366-1587-424B-8FED-904F485C0A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BCDA366-1587-424B-8FED-904F485C0A33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
