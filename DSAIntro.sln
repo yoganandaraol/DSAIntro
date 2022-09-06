@@ -215,6 +215,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "101_RecursionPractice", "10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "102_IsMagicNumber", "102_IsMagicNumber\102_IsMagicNumber.csproj", "{ACB2CE09-3042-4B20-A550-9A9DF80795A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "103_PowerFunctionRecursion", "103_PowerFunctionRecursion\103_PowerFunctionRecursion.csproj", "{FDD37304-CFD6-4263-8B56-ED48B4922A9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -641,6 +643,10 @@ Global
 		{ACB2CE09-3042-4B20-A550-9A9DF80795A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACB2CE09-3042-4B20-A550-9A9DF80795A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACB2CE09-3042-4B20-A550-9A9DF80795A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD37304-CFD6-4263-8B56-ED48B4922A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD37304-CFD6-4263-8B56-ED48B4922A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD37304-CFD6-4263-8B56-ED48B4922A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD37304-CFD6-4263-8B56-ED48B4922A9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
