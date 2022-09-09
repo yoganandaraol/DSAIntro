@@ -217,9 +217,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "102_IsMagicNumber", "102_Is
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "103_PowerFunctionRecursion", "103_PowerFunctionRecursion\103_PowerFunctionRecursion.csproj", "{FDD37304-CFD6-4263-8B56-ED48B4922A9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "104_ReactangleClass", "104_ReactangleClass\104_ReactangleClass.csproj", "{CDC8E0CE-1A5F-4E55-B1EF-5114104DE043}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "104_ReactangleClass", "104_ReactangleClass\104_ReactangleClass.csproj", "{CDC8E0CE-1A5F-4E55-B1EF-5114104DE043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "105_MagicRecursion", "105_MagicRecursion\105_MagicRecursion.csproj", "{F5DD88EF-2526-48A7-8C83-EA06819B53F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "105_MagicRecursion", "105_MagicRecursion\105_MagicRecursion.csproj", "{F5DD88EF-2526-48A7-8C83-EA06819B53F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "106_GreyCode", "106_GreyCode\106_GreyCode.csproj", "{12D81FF0-EC22-4922-BA8F-4CC21B1F3FA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -659,6 +661,10 @@ Global
 		{F5DD88EF-2526-48A7-8C83-EA06819B53F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5DD88EF-2526-48A7-8C83-EA06819B53F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5DD88EF-2526-48A7-8C83-EA06819B53F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D81FF0-EC22-4922-BA8F-4CC21B1F3FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D81FF0-EC22-4922-BA8F-4CC21B1F3FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D81FF0-EC22-4922-BA8F-4CC21B1F3FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D81FF0-EC22-4922-BA8F-4CC21B1F3FA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
