@@ -8,6 +8,7 @@ namespace _107_LinkedListBasics
         {
             ListNode inputA = CreateLinkedList();
             PrintLinkedList(inputA);
+            PrintLinkedList(CreateLinkedListDesc());
             Console.WriteLine(SearchForValue(inputA, new Random().Next(100, 110)) == 1 ? "Passed" : "Failed");
             Console.WriteLine(SearchForValue(inputA, new Random().Next(99)) == 0 ? "Passed" : "Failed");
 
@@ -15,6 +16,8 @@ namespace _107_LinkedListBasics
             PrintLinkedList(InsertNodeAt(CreateLinkedList(), 10, 6));
             PrintLinkedList(InsertNodeAt(null, 10, 6));
             PrintLinkedList(InsertNodeAt(CreateLinkedList(), 10, 16));
+            Console.WriteLine(CheckLinkedListInAscendingOrderOrNot(CreateLinkedList()));
+            Console.WriteLine(CheckLinkedListInAscendingOrderOrNot(CreateLinkedListDesc()));
         }
 
         private static ListNode CreateLinkedList()
@@ -24,6 +27,19 @@ namespace _107_LinkedListBasics
             for (int i = 1; i <= 10; i++)
             {
                 temp.next = new ListNode(temp.val + 1);
+                temp = temp.next;
+            }
+
+            return inputA;
+        }
+
+        private static ListNode CreateLinkedListDesc()
+        {
+            var inputA = new ListNode(100);
+            var temp = inputA;
+            for (int i = 1; i <= 10; i++)
+            {
+                temp.next = new ListNode(temp.val - 1);
                 temp = temp.next;
             }
 
@@ -76,6 +92,22 @@ namespace _107_LinkedListBasics
             temp.next = insertNode;
 
             return A;
+        }
+
+        static int CheckLinkedListInAscendingOrderOrNot(ListNode A)
+        {
+            ListNode temp = A;
+            var max = int.MinValue;
+            while (temp != null)
+            {
+                if (temp.val < max) return 0;
+                else
+                    max = temp.val;
+
+                temp = temp.next;
+            }
+
+            return 1;
         }
     }
 
