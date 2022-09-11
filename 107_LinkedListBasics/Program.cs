@@ -170,6 +170,23 @@ namespace _107_LinkedListBasics
             return 1;
         }
 
+        // Search of Bth Node. Nodes follows 0 based indexing
+        static int BthNodeInLinkedList(ListNode A, int B)
+        {
+            var temp = A;
+            int index = 0;
+            while (temp != null)
+            {
+                if (index == B)
+                    return temp.val;
+
+                index++;
+                temp = temp.next;
+            }
+
+            return -1;
+        }
+
         
     }
 
