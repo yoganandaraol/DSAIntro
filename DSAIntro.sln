@@ -223,7 +223,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "105_MagicRecursion", "105_M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "106_GreyCode", "106_GreyCode\106_GreyCode.csproj", "{12D81FF0-EC22-4922-BA8F-4CC21B1F3FA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "107_LinkedListBasics", "107_LinkedListBasics\107_LinkedListBasics.csproj", "{CB6D5DBB-1D43-44F0-AC30-D480B2038A78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "107_LinkedListBasics", "107_LinkedListBasics\107_LinkedListBasics.csproj", "{CB6D5DBB-1D43-44F0-AC30-D480B2038A78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "108_BinaryTreeTraversals", "108_BinaryTreeTraversals\108_BinaryTreeTraversals.csproj", "{CF2519A3-E2F3-4655-82B2-129908081DAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -671,6 +673,10 @@ Global
 		{CB6D5DBB-1D43-44F0-AC30-D480B2038A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB6D5DBB-1D43-44F0-AC30-D480B2038A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB6D5DBB-1D43-44F0-AC30-D480B2038A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2519A3-E2F3-4655-82B2-129908081DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2519A3-E2F3-4655-82B2-129908081DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2519A3-E2F3-4655-82B2-129908081DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2519A3-E2F3-4655-82B2-129908081DAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
