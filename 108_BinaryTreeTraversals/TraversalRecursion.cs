@@ -66,5 +66,19 @@ namespace _108_BinaryTreeTraversals
             PostOrder(temp.right, nodes);
             nodes.Add(temp.val);
         }
+
+        static void MaxData(TreeNode root, ref int max)
+        {
+            var temp = root;
+            if (temp == null)
+            {
+                max = int.MinValue;
+                return;
+            }
+
+            max = Math.Max(max, temp.val);
+            MaxData(temp.left, ref max);
+            MaxData(temp.right, ref max);
+        }
     }
 }

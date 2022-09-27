@@ -229,7 +229,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "108_BinaryTreeTraversals", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "110_StudentMarks", "110_StudentMarks\110_StudentMarks.csproj", "{1DD7FC8F-F443-4E82-B924-75C3D98D3532}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "109_StackParanthesisOrder", "109_StackParanthesisOrder\109_StackParanthesisOrder.csproj", "{D5CB4D9D-9F27-4D26-97C6-18C1B66D81FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "109_StackParanthesisOrder", "109_StackParanthesisOrder\109_StackParanthesisOrder.csproj", "{D5CB4D9D-9F27-4D26-97C6-18C1B66D81FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "111_Misc", "111_Misc\111_Misc.csproj", "{8AA4CA0D-380B-4128-85F9-59290C819143}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -689,6 +691,10 @@ Global
 		{D5CB4D9D-9F27-4D26-97C6-18C1B66D81FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5CB4D9D-9F27-4D26-97C6-18C1B66D81FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5CB4D9D-9F27-4D26-97C6-18C1B66D81FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA4CA0D-380B-4128-85F9-59290C819143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA4CA0D-380B-4128-85F9-59290C819143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA4CA0D-380B-4128-85F9-59290C819143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA4CA0D-380B-4128-85F9-59290C819143}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
